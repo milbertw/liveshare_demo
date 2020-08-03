@@ -14,6 +14,7 @@ namespace Supercon.Controllers
 
         public ProductController(ProductService productService)
         {
+            // comment added by Milber
             this.productService = productService; 
         }
 
