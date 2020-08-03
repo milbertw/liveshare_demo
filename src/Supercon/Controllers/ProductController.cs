@@ -30,5 +30,16 @@ namespace Supercon.Controllers
             return StatusCode(StatusCodes.Status200OK, product);
         }
 
+        private string MilberMethod()
+        {
+            return "I am Milber";
+        }
+
+        private string EduMethods()
+        {
+            var msg = "Edu is doing something. New things";
+            return msg;
+        }
+
     }
 }
