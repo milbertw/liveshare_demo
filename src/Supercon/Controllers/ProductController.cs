@@ -32,13 +32,18 @@ namespace Supercon.Controllers
 
         private string MilberMethod()
         {
-            return "I am Milber";
+            return "I am Milber again. For testing" ;
         }
 
         private string EduMethods()
         {
             var msg = "Edu is doing something. New things";
             return msg;
+        }
+
+        private void VSCodeIsTheHostNow()
+        {
+            var msg = "no new code for now";
         }
 
     }
